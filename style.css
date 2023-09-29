@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html, body, p, h1, h2, h3, h4, h5, span, div, section, b {
+    font-family: acumin-pro, Arial, sans-serif !important;
+}
+main {
+    display: flex;
+    align-items: center;
+    /* height: 100vh; */
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.side1div {
+    background-image: url(./images/app-awareness-container-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+    padding: 7rem;
+    padding-top: 10rem;
+}
+.awerness-text {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(21, 63, 147) 0px 3px 0px;
+}
+.awerness-text p {
+    font-weight: 800 !important;
+    font-size: 32px;
+    margin-bottom: 2rem;
+}
+.appcontainer {
+    width: 40%;
+    margin: auto;
+}
+.app-img {
+    cursor: pointer;
+}
+.side2div {
+    width: 50%;
+    height: 100vh;
+    padding: 7rem;
+    padding-top: 10rem;
+}
+.loginform-container {
+    width: 52%;
+    margin: auto;
+}
+form h1 {
+    color: rgb(42, 40, 40);
+    font-family: "Ariana Pro Light", sans-serif, Arial;
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+form label span {
+    margin-bottom: 1.2rem;
+    font-weight: 700;
+    font-size: 14px;
+}
+.input-div input {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    font-size: 16px;
+    line-height: 41px;
+    width: 100%;
+    height: 42px;
+    border: 2px solid #d02329!important;
+    padding: 1rem !important;
+    border-radius: 10px;
+}
+.maerg-inp {
+    margin-top: 2rem;
+}
+.btn {
+    font-weight: 400;
+    font-style: normal;
+    font-family: acumin-pro, sans-serif, Arial !important;
+    background: rgb(0, 58, 135);
+    color: rgb(255, 255, 255);
+    /* font-size: 1.4rem; */
+    border-width: 2px;
+    border-style: solid;
+    border-color: transparent;
+    /* border-image: initial; */
+    transition: all 0.2s ease 0s;
+    width: 100%;
+    border-radius: 1rem !important;
+    padding: 1.1rem 2rem !important;
+    margin-bottom: 1rem;
+}
+.fpwd {
+    cursor: pointer;
+    color: rgb(0, 58, 135);
+    font-size: 1rem;
+    display: inline;
+}
+@media (max-width: 1300px) {
+    .loginform-container {
+        width: 60%;
+        margin: auto;
+    }
+}
+@media (max-width: 1228px) {
+    .loginform-container {
+        width: 50%;
+        margin: auto;
+    }
+    .side2div {
+        width: 50%;
+        height: 100vh;
+        padding: 2rem;
+        padding-top: 7rem;
+    }
+}
+@media (max-width: 991px) {
+    .side1div {
+        background-image: url(./images/app-awareness-container-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 50%;
+        height: 100vh;
+        padding: 2rem;
+        padding-top: 10rem;
+    }
+    .side2div {
+        width: 50%;
+        height: 100vh;
+        padding: 0rem;
+        padding-top: 10rem;
+    }
+}
+@media (max-width: 768px) {
+    .loginform-container {
+        width: 100%;
+        margin: auto;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* height: 100vh; */
+    }
+    .side1div {
+        background-image: url(./images/app-awareness-container-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 100vh;
+        padding: 4rem;
+        padding-top: 10rem;
+    }
+    .side2div {
+        width: 100%;
+        height: 100vh;
+        padding: 4rem;
+        padding-top: 6rem;
+    }
+}
+@media (max-width: 500px) {
+    .side1div {
+        background-image: url(./images/app-awareness-container-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 100vh;
+        padding: 2rem;
+        padding-top: 10rem;
+    }
+    .side2div {
+        width: 100%;
+        height: 100vh;
+        padding: 2rem;
+        padding-top: 10rem;
+    }
+}
+/* @media (max-width: 768px)
+@media (max-width: 991px)
+@media (max-width: 617px)
+@media (max-width: 450px) */
