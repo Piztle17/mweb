@@ -15,6 +15,19 @@ img {
     width: 100%;
     height: auto;
 }
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: blue;
+    height: auto;
+}
+header .img-log {
+    width: 10%;
+    height: auto;
+    padding: 1rem;
+    display: none;
+}
 .side1div {
     background-image: url(./images/app-awareness-container-bg.png);
     background-repeat: no-repeat;
@@ -72,7 +85,7 @@ form label span {
     line-height: 41px;
     width: 100%;
     height: 42px;
-    border: 2px solid #d02329!important;
+    /* border: 2px solid #d02329!important; */
     padding: 1rem !important;
     border-radius: 10px;
 }
@@ -139,6 +152,12 @@ form label span {
     }
 }
 @media (max-width: 768px) {
+    header .img-log {
+        width: 20%;
+        height: auto;
+        padding: 1rem;
+        display: block;
+    }
     .loginform-container {
         width: 100%;
         margin: auto;
