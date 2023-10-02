@@ -111,6 +111,11 @@ form label span {
     border-radius: 1rem !important;
     padding: 1.1rem 2rem !important;
     margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.alert {
+    color: red; font-size: 16px; margin: 1rem 0rem;
+    display: none;
 }
 .fpwd {
     cursor: pointer;
