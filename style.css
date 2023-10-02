@@ -28,6 +28,51 @@ header .img-log {
     padding: 1rem;
     display: none;
 }
+.outer {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(168, 166, 166, 0.303);
+    z-index: 7;
+    height: 100vh;
+    display: none;
+}
+.openme {
+    display: block;
+}
+.popup {
+    width: 50%;
+    margin: auto;
+    margin-top: 17rem;
+    background: white;
+}
+.hedpop {
+    background: rgb(9, 9, 153);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.hedpop h1 {
+    text-align: center;
+}
+.message {
+    padding: 2rem;
+    text-align: center;
+}
+/* .icon {
+    position: relative;
+    top: -1rem;
+    color: black;
+    left: 45rem;
+    cursor: pointer;
+} */
+.icon i {
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
 .side1div {
     background-image: url(./images/app-awareness-container-bg.png);
     background-repeat: no-repeat;
@@ -200,6 +245,33 @@ form label span {
         gap: 2rem;
         margin: auto;
     }
+    .popup {
+        width: 70%;
+        margin: auto;
+        margin-top: 17rem;
+        background: white;
+    }
+    /* .icon {
+        position: relative;
+        top: -1rem;
+        color: black;
+        left: 25rem;
+        cursor: pointer;
+    } */
+    .message {
+        padding: 1rem;
+        text-align: center;
+        font-size: 13px;
+    }
+    .hedpop {
+        background: rgb(9, 9, 153);
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        font-size: 10px;
+    }
 }
 @media (max-width: 500px) {
     .side1div {
@@ -231,6 +303,12 @@ form label span {
         /* font-weight: 800 !important; */
         font-size: 21px;
         /* margin-bottom: 2rem; */
+    }
+    .popup {
+        width: 90%;
+        margin: auto;
+        margin-top: 17rem;
+        background: white;
     }
 }
 /* @media (max-width: 768px)
